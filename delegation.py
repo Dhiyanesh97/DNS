@@ -160,7 +160,7 @@ def delegate(domain, resolv):
     else:
         return True
 
-main("google.com")
+
 # Converts IP to Address(Domain Names)
 def rev(ns):
     try:
