@@ -94,7 +94,7 @@ def main(domain):
                                                                                                                     "                                     V \n"
               )
         ct += 1
-    return dele_names, mydict
+    #return dele_names, mydict
 
 # Converts Address(Domain Names) to IP
 def add_to_ips(add):
@@ -160,7 +160,7 @@ def delegate(domain, resolv):
     else:
         return True
 
-
+main("google.com")
 # Converts IP to Address(Domain Names)
 def rev(ns):
     try:
